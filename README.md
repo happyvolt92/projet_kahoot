@@ -15,9 +15,10 @@ Obligatoire :
  - Timer pour les questions 
  - Site en ligne via FTP
  - Animations 
- - Design moderne Bonus :
- - Back office qui permet d’ajouter des questions ou de créer de nouveaux  quizz
-- Système de login et de comptes 
+ - Design moderne 
+ - Bonus :
+    - Back office qui permet d’ajouter des questions ou de créer de nouveaux  quizz
+    - Système de login et de comptes 
 
 Vous disposerez d’un CSV vérités et mensonges (à propos de vous) 
 
