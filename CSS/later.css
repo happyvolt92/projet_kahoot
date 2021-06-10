@@ -1,0 +1,11 @@
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 9.5fr 25fr 15fr 11.3fr 11.3fr 11.3fr 11.3fr 6.2%;
+ grid-template-areas: "numero pseudo"
+ "timer timer"
+ "question question"
+ "proposition1 proposition1"
+ "proposition2 proposition2"
+ "proposition3 proposition3"
+ "proposition4 proposition4"
+ "footer footer";
