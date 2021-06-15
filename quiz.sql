@@ -8,8 +8,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   PRIMARY KEY (`id`))
   ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
 
-  INSERT INTO `users` (`id`, `user_name`, `pin`) VALUES
-(1, 'champ', '10');
+
 
 -- CREATE TABLE IF NOT EXISTS `game_pin` (
 --   `id` int(11) NOT NULL AUTO_INCREMENT,
