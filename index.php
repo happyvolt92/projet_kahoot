@@ -34,9 +34,15 @@ require 'config.php';
 			<form class="form_id">
 			<input type="hidden" class="id" name="id" value="1" >
 		</form>
+		<form class="max_id">
+			<input type="hidden" class="max" name="max" value="1" >
+		</form>
+		<form class="score_form">
+			<input type="hidden" class="score" name="score" value="0" >
+		</form>
 		<h3>© ACS 2021</h3>
 	</footer>
-	<script src="app.js">$.ajaxPrefilter(function( options, originalOptions, jqXHR ) {    options.async = true; });</script>
+	<script src="app.js" type="module">$.ajaxPrefilter(function( options, originalOptions, jqXHR ) {    options.async = true; });</script>
 </body>
 
 </html>

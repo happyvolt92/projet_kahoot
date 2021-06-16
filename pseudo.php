@@ -1,11 +1,11 @@
 
-
+<h1>Quizzoot!</h1>
 <form id="pseudo_form" class="join_quiz">
-    <input type="text" required minlength="1" value="" placeholder="Enter Pseudo" id="pseudo" name="pseudo" autocomplete="off">
+    <input type="text" required minlength="1" value="" placeholder="Enter Pseudo" id="pseudo" name="pseudo" autocomplete="off" autofocus="on">
     <button type="submit" class="button_pseudo">Enter</button>
     <span></span>
 </form>
-<script>
+<script type="module">
 $('#pseudo_form').on('submit', function(e){
 	e.preventDefault();
 
@@ -28,12 +28,19 @@ $('#pseudo_form').on('submit', function(e){
                 setTimeout(() => {
                 $('h2').remove();
                 $('section').load("question.php");
+				
                   
                 }, 1000);
+
+		
                 
 
 
 			}
 		}
 	})}
-);</script>
+);
+
+
+
+</script>
